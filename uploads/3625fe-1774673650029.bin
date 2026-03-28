@@ -1,0 +1,21 @@
+<!-- Tela de Carregamento Harmonizada -->
+<div id="loading-screen" class="fixed inset-0 z-[100] bg-slate-50 dark:bg-gelap flex flex-col items-center justify-center transition-opacity duration-500 overflow-hidden">
+    <div id="particles-js-loader" class="absolute inset-0 z-[-1]"></div>
+    <div class="relative z-10 flex flex-col items-center">
+        <div class="glass-card p-8 rounded-[3rem] shadow-2xl border border-white/20 flex flex-col items-center transform scale-110">
+            <div class="relative mb-6">
+                <div class="w-28 h-28 rounded-full border-4 border-utama/30 overflow-hidden shadow-2xl animate-[syncPulse_2s_infinite]">
+                    <img src="https://files.catbox.moe/f869cj.jpg" alt="Logo Store" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-utama rounded-xl flex items-center justify-center text-white shadow-lg animate-bounce">
+                    <i class="fas fa-bolt text-xs"></i>
+                </div>
+            </div>
+            <div class="text-2xl font-black logo-text tracking-widest mb-6">FUTURE SHOPP</div>
+            <div class="w-48 h-2 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden shadow-inner">
+                <div class="w-0 h-full bg-gradient-to-r from-utama to-sekunder rounded-full animate-[fillProgress_2.5s_ease-in-out_forwards] shadow-[0_0_15px_rgba(244,63,94,0.5)]"></div>
+            </div>
+            <p class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 mt-4 animate-pulse">Inicializando sistema...</p>
+        </div>
+    </div>
+</div>
